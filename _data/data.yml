@@ -51,42 +51,37 @@ sidebar:
         value: 2 de Junio de 1968
 
 career-profile:
-    title: Career Profile
+    title: Perfil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Optimista, creativa y apasionada de mi profesión, el cine y el teatro.
+      He protagonizado varios cortos y dos largometrajes.
+      Tras mi licenciatura en interpretación fundé mi propia compañía de teatro,
+      donde he volcado mi creatividad tanto en la escritura y dirección de obras musicales infantiles
+      como en el diseño de vestuario y peluquería.
+      Extremadamente motivada para acometer nuevos retos profesionales.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Licenciada en Interpretación
+      university: Escuela Superior de Arte Dramático (ESAD) de Murcia
+      time: 2007 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        # Describe your study here lorem ipsum dolor sit amet, consectetuer
+        # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        # sociis natoque penatibus et magnis dis parturient montes, nascetur
+        # ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        # pretium quis, sem.
+        #
+        #   - Bullet point
+        #   - Bullet point
 
-          - Bullet point
-          - Bullet point
+    - degree: Diplomatura de Monitora de Aerobic
+      university: A.M.A. de Murcia
+      time: 1988
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: Diplomatura en Perluquería
+      university: Instituto Politécnico de F.P. Academia Santiago, Murcia
+      time: 1984
 
-          - Bullet point
-          - Bullet point
 
 experiences:
     - role: Lead Developer

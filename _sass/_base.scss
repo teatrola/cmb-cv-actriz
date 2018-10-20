@@ -175,7 +175,14 @@ p {
         margin-bottom: 60px;
     }
 
-    .experiences-section, .educations-section {
+    .experiences-section {
+        .item {
+            margin-bottom: 30px;
+            border-left: 4px solid gray;
+            padding-left: 10px;
+        }
+    }
+    .educations-section {
         .item {
             margin-bottom: 30px;
         }

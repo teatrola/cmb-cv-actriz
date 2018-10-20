@@ -1,0 +1,19 @@
+{% assign personales = site.data.data.sidebar.personales %}
+{% if personales %}
+<div class="personales-container container-block">
+
+  <h2 class="container-block-title">
+    Datos personales
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for dato in personales %}
+    <li>
+      {{ dato.item }}
+      <span class="pers-desc">({{ dato.value }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

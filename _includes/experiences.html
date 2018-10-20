@@ -10,26 +10,29 @@
   </h2>
 
   {% for experience in experiences %}
-  <div class="item">
+    <h3 class="section-title">{{ experience.title }}</h3>
+    {% for item in experience.items %}
+      <div class="item">
 
-    <div class="meta">
+        <div class="meta">
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+          <div class="upper-row">
+            <h3 class="job-title">{{ item.role }}</h3>
+            <div class="time">{{ item.time }}</div>
+          </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+          <div class="company">{{ item.company }}</div>
 
-    </div><!--//meta-->
+        </div><!--//meta-->
 
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
+        {% if item.details %}
+        <div class="details">
+          {{ item.details | markdownify }}
+        </div><!--//details-->
+        {% endif %}
 
-  </div><!--//item-->
+      </div><!--//item-->
+    {% endfor %}
   {% endfor %}
 
 </section><!--//section-->

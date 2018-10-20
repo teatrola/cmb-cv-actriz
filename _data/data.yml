@@ -84,37 +84,26 @@ education:
 
 
 experiences:
+  - title: Teatro
+  - items:
     - role: La Herida del Tiempo
       time: 2015
       company: Teatro Quevedo (Madrid). Director, Vicente Rodado.
       details: |
         Personaje protaonista Señora Conway.
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Cuento de Navidad
+      time: 2015
+      company: Teatro Circo el Algar (Cartagena) y en diferentes auditorios de la región de Murcia.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Dirección y personaje protagonista (Señora Chrysler). Adaptado del texto de Dickens
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+  - title: Cine y Televisión
+  - items:
+    - role: La Herida del Tiempo
+      time: 2015
+      company: Teatro Quevedo (Madrid). Director, Vicente Rodado.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Personaje protaonista Señora Conway.
 
 projects:
     title: Projects

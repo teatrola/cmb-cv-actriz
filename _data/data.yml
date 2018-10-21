@@ -187,38 +187,52 @@ experiences:
       company:
       details:
 
-    - role: Monitora de baile moderno, sevillanas y aerobic. Gimnasio Sohogun de Alcantarilla.
+    - role: Monitora de baile moderno, sevillanas y aerobic.
       time: 1985 - 2000
-      company:
+      company: Gimnasio Sohogun de Alcantarilla.
       details:
 
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-#
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
-#
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-#
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-#
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+projects:
+    title: Formación Complementaria
+    # intro: >
+      # You can list your side projects or open source libraries in this
+      # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Audiovisual, interpretación ante la cámara
+        link: "#hook"
+        tagline: |
+          - Con Cristina Alcázar (2013-2014).
+          - Con Tonucha Vidal (Estudio de Teatro Teatres Producciones).
+
+      - title: Curso de claqué
+        link: "#"
+        tagline: Academia de Teatro Musical "El Camerino de Fran" (2014).
+
+      - title: Preparación al Casting de Baile Teatro Musical
+        link: "#"
+        tagline: Con Angie Alcázar.
+
+      - title: Curso de Jazz Broadway
+        link: "#"
+        tagline: Con Jon Mitó. Academia Groets (2012).
+
+      - title: Clases de canto
+        link: "#"
+        tagline: Academia "La Lira" (2007).
+
+      - title: Curso de monitor de bailes de salón
+        link: "#"
+        tagline: Academia "Baibal" (2002).
+
+      - title: Curso de pasarela
+        link: "#"
+        tagline: Escuela Maria Elena Dávalos (1991).
+
+      - title: Curso de modelo fotográfico
+        link: "#"
+        tagline: Agencia de modelos Andrea’s. (1991).
 
 # publications:
 #     title: Publications

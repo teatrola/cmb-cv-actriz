@@ -138,6 +138,11 @@ experiences:
       company: Escuela Superior de Arte Dramático. Director y guionista, Alfonso García Pujalte.
       details: Actriz protagonista.
 
+    - role: Cartas (cortometraje)
+      time: 2015
+      company: Directora, Carment Blanco.
+      details: Actriz protagonista.
+
     - role: Alzmer (cortometraje)
       time: 2014
       company: Productora Blue Tear (Valencia). Director, Manuel Camacho.
@@ -147,6 +152,11 @@ experiences:
       time: 2014
       company: Director, Manuel Camacho.
       details: Personaje Paqui.
+
+    - role: Pirata (cortometraje)
+      time: 2014
+      company: Director, Manuel Camacho.
+      details: Actriz protagonista.
 
     - role: Las chicas del aro (largometraje)
       time: 2012
@@ -200,6 +210,14 @@ projects:
       # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
+      - title: Curso de claqué
+        link: "#hook"
+        tagline: Escuela de Música y Artes Escénicas, Madrid (2018).
+
+      - title: Curso de entrenamiento del actor frente a la cámara
+        link: "#hook"
+        tagline: Con Ramón Quesada. Arte 4 Estudio de Actores, Madrid (2018).
+
       - title: Audiovisual, interpretación ante la cámara
         link: "#hook"
         tagline: Con Cristina Alcázar (2013-2014) y Tonucha Vidal (Estudio de Teatro Teatres Producciones).

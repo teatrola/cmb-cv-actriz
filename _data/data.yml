@@ -163,6 +163,23 @@ experiences:
       company: Productora, Notodofilmfest. Director, Carlos Vermut.
       details: Personaje protagonista (Lucía).
 
+  - title: Galas y Espectáculos
+  - items:
+    - role: Coreógrafa y componente del ballet ”BLANCO SATÉN”.
+      time: 1996 - 1999
+      company:
+      details:
+
+    - role: CheerLeader del equipo de baloncesto "JUVER" de Murcia.
+      time: 1991 - 1992
+      company:
+      details:
+
+    - role: Presentadora en diferentes galas y espectáculos musicales.
+      time: 2000 - 2012
+      company:
+      details:
+
 # projects:
 #     title: Projects
 #     intro: >

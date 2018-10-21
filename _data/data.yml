@@ -128,10 +128,40 @@ experiences:
 
   - title: Cine y Televisión
   - items:
-    - role: La Herida del Tiempo
+    - role: Luces (largometraje)
+      time: 2016
+      company: Director, Alfredo Contreras.
+      details: Personaje Pilar.
+
+    - role: Mientras estés a mi lado (cortometraje)
       time: 2015
-      company: Teatro Quevedo (Madrid). Director, Vicente Rodado.
-      details: Personaje protaonista (Señora Conway).
+      company: Escuela Superior de Arte Dramático. Director y guionista, Alfonso García Pujalte.
+      details: Actriz protagonista.
+
+    - role: Alzmer (cortometraje)
+      time: 2014
+      company: Productora Blue Tear (Valencia). Director, Manuel Camacho.
+      details: Actriz de reparto.
+
+    - role: Candela (largometraje)
+      time: 2014
+      company: Director, Manuel Camacho.
+      details: Personaje Paqui.
+
+    - role: Las chicas del aro (largometraje)
+      time: 2012
+      company: Productora, Diagonal y Malvarrosa.
+      details: Figurante.
+
+    - role: Las chicas del aro (largometraje)
+      time: 2012
+      company: Productora, Diagonal y Malvarrosa Media (Valencia). Director, Rafael Montesinos.
+      details: Figurante.
+
+    - role: Michirones (cortometraje)
+      time: 2010
+      company: Productora, Notodofilmfest. Director, Carlos Vermut.
+      details: Personaje protagonista (Lucía).
 
 # projects:
 #     title: Projects

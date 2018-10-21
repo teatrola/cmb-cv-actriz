@@ -202,36 +202,34 @@ projects:
     assignments:
       - title: Audiovisual, interpretación ante la cámara
         link: "#hook"
-        tagline: |
-          - Con Cristina Alcázar (2013-2014).
-          - Con Tonucha Vidal (Estudio de Teatro Teatres Producciones).
+        tagline: Con Cristina Alcázar (2013-2014) y Tonucha Vidal (Estudio de Teatro Teatres Producciones).
 
       - title: Curso de claqué
-        link: "#"
+        link: "#hook"
         tagline: Academia de Teatro Musical "El Camerino de Fran" (2014).
 
       - title: Preparación al Casting de Baile Teatro Musical
-        link: "#"
+        link: "#hook"
         tagline: Con Angie Alcázar.
 
       - title: Curso de Jazz Broadway
-        link: "#"
+        link: "#hook"
         tagline: Con Jon Mitó. Academia Groets (2012).
 
       - title: Clases de canto
-        link: "#"
+        link: "#hook"
         tagline: Academia "La Lira" (2007).
 
       - title: Curso de monitor de bailes de salón
-        link: "#"
+        link: "#hook"
         tagline: Academia "Baibal" (2002).
 
       - title: Curso de pasarela
-        link: "#"
+        link: "#hook"
         tagline: Escuela Maria Elena Dávalos (1991).
 
       - title: Curso de modelo fotográfico
-        link: "#"
+        link: "#hook"
         tagline: Agencia de modelos Andrea’s. (1991).
 
 # publications:

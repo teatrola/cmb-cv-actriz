@@ -47,17 +47,27 @@ sidebar:
       - item: Nacionalidad
         value: española
 
-      - item: Nacimiento
-        value: 2 de Junio de 1968
+      - item: Altura
+        value: 167 cm
+
+      - item: Peso
+        value: 59 kg
+
+      - item: Pelo
+        value: rubio/largo/rizado
+
+      - item: Ojos
+        value: Marrones
+
+      - item: Registro vocal
+        value: Soprano
 
 career-profile:
     title: Perfil
     summary: |
       Optimista, creativa y apasionada de mi profesión, el cine y el teatro.
-      He protagonizado varios cortos y dos largometrajes.
-      Tras mi licenciatura en interpretación fundé mi propia compañía de teatro,
-      donde he volcado mi creatividad tanto en la escritura y dirección de obras musicales infantiles
-      como en el diseño de vestuario y peluquería.
+      Tras mi licenciatura en interpretación trabajé en varios cortos
+      y protagonicé dos largometrajes y varias obras de teatro musical.
       Extremadamente motivada para acometer nuevos retos profesionales.
 
 education:
@@ -98,7 +108,7 @@ experiences:
 
     - role: Pide un Deseo y Un Deseo por Navidad (musical)
       time: 2014
-      company: Teatro Circo el Algar (Cartagena) y en diferentes auditorios de Murcia y Toledo.
+      company: Teatro Quevedo (Madrid), Teatro Circo el Algar (Cartagena), y auditorios de Murcia y Toledo.
       details: Dirección y personaje protagonista (Señora Grette).
 
     - role: Musical gutural
@@ -113,7 +123,7 @@ experiences:
 
     - role: Ratas (musical)
       time: 2012
-      company: ESAD Murcia. Director, César Oliva.
+      company: Teatro Circo Murcia. Director, César Oliva.
       details: Adaptación de “El retablo del flautista” de Jordi Teixidor. Actriz de reparto (Señora Weis).
 
     - role: La Pluma y el Miedo
@@ -163,11 +173,6 @@ experiences:
       company: Productora, Diagonal y Malvarrosa.
       details: Figurante.
 
-    - role: Las chicas del aro (largometraje)
-      time: 2012
-      company: Productora, Diagonal y Malvarrosa Media (Valencia). Director, Rafael Montesinos.
-      details: Figurante.
-
     - role: Michirones (cortometraje)
       time: 2010
       company: Productora, Notodofilmfest. Director, Carlos Vermut.
@@ -192,7 +197,7 @@ experiences:
 
   - title: Otros
   - items:
-    - role: Directora artística de la compañía de teatro "TEATROLA MUSICAL"
+    - role: Coordinadora artística de la compañía de teatro "TEATROLA MUSICAL"
       time: desde 2013
       company:
       details:
@@ -212,7 +217,7 @@ projects:
     assignments:
       - title: Curso de claqué
         link: "#hook"
-        tagline: Escuela de Música y Artes Escénicas, Madrid (2018).
+        tagline: Escuela de danzA, teatRo y múSica (ARS), Madrid (2018).
 
       - title: Curso de entrenamiento del actor frente a la cámara
         link: "#hook"

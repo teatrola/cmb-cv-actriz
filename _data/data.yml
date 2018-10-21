@@ -165,18 +165,30 @@ experiences:
 
   - title: Galas y Espectáculos
   - items:
-    - role: Coreógrafa y componente del ballet ”BLANCO SATÉN”.
+    - role: Coreógrafa y componente del ballet ”BLANCO SATÉN”
       time: 1996 - 1999
       company:
       details:
 
-    - role: CheerLeader del equipo de baloncesto "JUVER" de Murcia.
+    - role: CheerLeader del equipo de baloncesto "JUVER" de Murcia
       time: 1991 - 1992
       company:
       details:
 
-    - role: Presentadora en diferentes galas y espectáculos musicales.
+    - role: Presentadora en diferentes galas y espectáculos musicales
       time: 2000 - 2012
+      company:
+      details:
+
+  - title: Otros
+  - items:
+    - role: Directora artística de la compañía de teatro "TEATROLA MUSICAL"
+      time: desde 2013
+      company:
+      details:
+
+    - role: Monitora de baile moderno, sevillanas y aerobic. Gimnasio Sohogun de Alcantarilla.
+      time: 1985 - 2000
       company:
       details:
 

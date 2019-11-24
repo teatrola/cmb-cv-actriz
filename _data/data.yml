@@ -145,32 +145,32 @@ experiences:
 
   - title: Cine y Televisión
   - items:
-    - role: Luces (largometraje)
-      time: 2016
+    - role: [Luces](https://www.imdb.com/title/tt5526362/) (largometraje)
+      time: 2017
       company: Director, Alfredo Contreras.
       details: Personaje Pilar.
 
-    - role: Mientras estés a mi lado (cortometraje)
+    - role: [Mientras estés a mi lado](https://www.youtube.com/watch?v=CZrDTqOcnKE) (cortometraje)
       time: 2015
       company: Escuela Superior de Arte Dramático. Director y guionista, Alfonso García Pujalte.
       details: Actriz protagonista.
 
-    - role: Cartas (cortometraje)
+    - role: [Cartas](https://www.youtube.com/watch?v=h-Kfh0PHrrY) (cortometraje)
       time: 2015
       company: Directora, Carment Blanco.
       details: Actriz protagonista.
 
-    - role: Alzmer (cortometraje)
+    - role: [Alz mer](https://www.youtube.com/watch?v=IRyktS6A5-w) (cortometraje)
       time: 2014
       company: Productora Blue Tear (Valencia). Director, Manuel Camacho.
       details: Actriz de reparto.
 
-    - role: Candela (largometraje)
-      time: 2014
+    - role: [Candela](https://www.imdb.com/title/tt4059554/) (largometraje)
+      time: 2015
       company: Director, Manuel Camacho.
       details: Personaje Paqui.
 
-    - role: Pirata (cortometraje)
+    - role: [Pirata](https://www.youtube.com/watch?v=2GO9mvfia0w) (cortometraje)
       time: 2014
       company: Director, Manuel Camacho.
       details: Actriz protagonista.
@@ -180,7 +180,7 @@ experiences:
       company: Productora, Diagonal y Malvarrosa.
       details: Figurante.
 
-    - role: Michirones (cortometraje)
+    - role: [Michirones](https://www.youtube.com/watch?v=0lpfh1Tpg3o) (cortometraje)
       time: 2010
       company: Productora, Notodofilmfest. Director, Carlos Vermut.
       details: Personaje protagonista (Lucía).

@@ -57,7 +57,7 @@ sidebar:
         value: 59 kg
 
       - item: Pelo
-        value: rubio/largo/rizado
+        value: castaño/largo/rizado
 
       - item: Ojos
         value: Marrones
@@ -103,8 +103,13 @@ education:
 experiences:
   - title: Cine y Televisión
   - items:
+    - role: "[Generali Vitality](https://youtu.be/w7Sv5ROelhY?si=yW_TCDIptNWFr3hj){:target='_blank'} (anuncio de TV)"
+      time: 2022
+      details: 'No te quedes en la silla', con Jesús Calleja.
+
     - role: "[Mutua Madrileña](https://youtu.be/-w_gA4-kAGU){:target='_blank'} (anuncio de TV)"
       time: 2020
+      details: 'Y luego ¿qué?'.
 
     - role: "[Luces](https://www.imdb.com/title/tt5526362/){:target='_blank'} (largometraje) [SELECCION ESCENAS](https://www.youtube.com/watch?v=CXapZ6QQWTs&feature=youtu.be){:target='_blank'}"
       time: 2017
@@ -147,6 +152,24 @@ experiences:
       details: Personaje protagonista (Lucía).
 
   - title: Teatro
+  - items:
+    - role: Abracadabra (musical)
+      time: 2023
+      company: Diferentes teatros de Murcia.
+      details: Personaje Flora.
+
+  - items:
+    - role: Bella y Bestia (musical)
+      time: 2022
+      company: Diferentes teatros de Murcia.
+      details: Personaje Babet (Plumero).
+
+  - items:
+    - role: El Mago de Oz (musical)
+      time: 2021
+      company: Diferentes teatros de Murcia.
+      details: Personaje Glinda (Ada) y Espantapájaros.
+
   - items:
     - role: La Varita Perdida (musical infantil)
       time: 2019

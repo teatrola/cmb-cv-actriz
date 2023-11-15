@@ -103,6 +103,11 @@ education:
 experiences:
   - title: Cine y Televisión
   - items:
+    - role: "[Nadie daba un duro](https://cinesembajadores.es/madrid/){:target='_blank'} (cortometraje)"
+      time: 2023
+      company: Director, Benito Zambrano.
+      details: Personaje protagonista (Carmen).
+
     - role: "[Generali Vitality](https://youtu.be/w7Sv5ROelhY){:target='_blank'} (anuncio de TV)"
       time: 2022
       details: No te quedes en la silla, con Jesús Calleja.
@@ -119,12 +124,12 @@ experiences:
     - role: "[Mientras estés a mi lado](https://www.youtube.com/watch?v=CZrDTqOcnKE){:target='_blank'} (cortometraje)"
       time: 2015
       company: Escuela Superior de Arte Dramático. Director y guionista, Alfonso García Pujalte.
-      details: Actriz protagonista.
+      details: Personaje protagonista.
 
     - role: "[Cartas](https://www.youtube.com/watch?v=h-Kfh0PHrrY){:target='_blank'} (cortometraje)"
       time: 2015
       company: Directora, Carment Blanco.
-      details: Actriz protagonista.
+      details: Personaje protagonista.
 
     - role: "[Alz mer](https://www.youtube.com/watch?v=IRyktS6A5-w){:target='_blank'} (cortometraje)"
       time: 2014
@@ -139,7 +144,7 @@ experiences:
     - role: "[Pirata](https://www.youtube.com/watch?v=2GO9mvfia0w){:target='_blank'} (cortometraje)"
       time: 2014
       company: Director, Manuel Camacho.
-      details: Actriz protagonista.
+      details: Personaje protagonista.
 
     - role: Las chicas del aro (largometraje)
       time: 2012
@@ -258,6 +263,14 @@ projects:
       # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
+      - title: Curso de teatro musical
+        link: "#hook"
+        tagline: Escuela Teatres producciones (2023).
+
+      - title: Curso de actor ante la cámara
+        link: "#hook"
+        tagline: Javier Mula (2023).
+
       - title: Curso de claqué
         link: "#hook"
         tagline: Escuela de danzA, teatRo y múSica (ARS), Madrid (2018).

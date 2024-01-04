@@ -95,9 +95,9 @@ education:
       university: A.M.A. de Murcia
       time: 1988
 
-    - degree: Diplomatura en Perluquería
-      university: Instituto Politécnico de F.P. Academia Santiago, Murcia
-      time: 1984
+    # - degree: Diplomatura en Perluquería
+    #   university: Instituto Politécnico de F.P. Academia Santiago, Murcia
+    #   time: 1984
 
 
 experiences:

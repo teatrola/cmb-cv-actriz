@@ -103,6 +103,11 @@ education:
 experiences:
   - title: Cine y Televisión
   - items:
+    - role: Hotel Bitcoin (largometraje)
+      time: 2024
+      company: Directores, Manuel Sanabria y Carlos 'Pocho' Villaverde.
+      details: Actriz de reparto (Manuela Galdón).
+
     - role: "[Nadie daba un duro](https://youtu.be/zCsdg44JWwI){:target='_blank'} (cortometraje)"
       time: 2023
       company: Director, Benito Zambrano.

@@ -108,25 +108,25 @@ publications:
     #   bibendum fringilla a eu lectus.
 
     papers:
-      - title: "[El regalo](https://youtu.be/1bTNHJ5AX_w){:target='_blank'}"
+      - title: "[El regalo](https://youtu.be/1bTNHJ5AX_w){:target='_blank'} (2024)"
         # authors: Donald E. Knuth
-        conference: 2024
+        # conference: 2024
 
-      - title: "[La fiesta](https://youtu.be/K6j8CSQS-dA){:target='_blank'}"
+      - title: "[La fiesta](https://youtu.be/K6j8CSQS-dA){:target='_blank'} (2024)"
         # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: 2024
+        # conference: 2024
 
-      - title: "[No tengas miedo](https://youtu.be/8GDxK66DHDY){:target='_blank'}"
+      - title: "[No tengas miedo](https://youtu.be/8GDxK66DHDY){:target='_blank'} (2024)"
         # authors: Edgar T. Irons
-        conference: 2024
+        # conference: 2024
 
-      - title: "[Hasta las mismas entrañas del miedo](https://youtu.be/gl4ZH4ZR874){:target='_blank'}"
+      - title: "[Hasta las mismas entrañas del miedo](https://youtu.be/gl4ZH4ZR874){:target='_blank'} (2020)"
         # authors: Edgar T. Irons
-        conference: 2020
+        # conference: 2020
 
-      - title: "[El detective](https://youtu.be/6xEfp1qRgow){:target='_blank'}"
+      - title: "[El detective](https://youtu.be/6xEfp1qRgow){:target='_blank'} (2014)"
         # authors: Edgar T. Irons
-        conference: 2014
+        # conference: 2014
 
 experiences:
   - title: Cine y Televisión

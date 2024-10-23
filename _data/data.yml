@@ -100,6 +100,34 @@ education:
     #   time: 1984
 
 
+publications:
+    title: SELECCIÓN DE ESCENAS
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+
+    papers:
+      - title: "[El regalo](https://youtu.be/1bTNHJ5AX_w){:target='_blank'}"
+        # authors: Donald E. Knuth
+        conference: 2024
+
+      - title: "[La fiesta](https://youtu.be/K6j8CSQS-dA){:target='_blank'}"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: 2024
+
+      - title: "[No tengas miedo](https://youtu.be/8GDxK66DHDY){:target='_blank'}"
+        # authors: Edgar T. Irons
+        conference: 2024
+
+      - title: "[Hasta las mismas entrañas del miedo](https://youtu.be/gl4ZH4ZR874){:target='_blank'}"
+        # authors: Edgar T. Irons
+        conference: 2020
+
+      - title: "[El detective](https://youtu.be/6xEfp1qRgow){:target='_blank'}"
+        # authors: Edgar T. Irons
+        conference: 2014
+
 experiences:
   - title: Cine y Televisión
   - items:
@@ -323,26 +351,6 @@ projects:
       - title: Curso de modelo fotográfico
         link: "#hook"
         tagline: Agencia de modelos Andrea’s. (1991).
-
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-#
-#     papers:
-#       - title: The Art of Computer Programming
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
-#
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-#
-#       - title: A syntax directed compiler for Algol 60
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
 
 # skills:
 #     title: Skills &amp; Proficiency

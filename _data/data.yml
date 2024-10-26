@@ -108,6 +108,10 @@ publications:
     #   bibendum fringilla a eu lectus.
 
     papers:
+      - title: "[Olvídame](https://youtu.be/V0bjDcCl_5k){:target='_blank'} (2024)"
+        # authors: Donald E. Knuth
+        # conference: 2024
+        
       - title: "[El regalo](https://youtu.be/1bTNHJ5AX_w){:target='_blank'} (2024)"
         # authors: Donald E. Knuth
         # conference: 2024
@@ -191,24 +195,26 @@ experiences:
 
   - title: Teatro
   - items:
+    - role: Annie (musical)
+      time: 2024
+      company: Teatro Villa de Molina (Murcia). 
+      details: Personaje protagonista (Señora Hannigan).
+      
     - role: Abracadabra (musical)
       time: 2023
       company: Diferentes teatros de Murcia.
       details: Personaje Flora.
 
-  - items:
     - role: Bella y Bestia (musical)
       time: 2022
       company: Diferentes teatros de Murcia.
       details: Personaje Babet (Plumero).
 
-  - items:
     - role: El Mago de Oz (musical)
       time: 2021
       company: Diferentes teatros de Murcia.
       details: Personaje Glinda (Ada) y Espantapájaros.
 
-  - items:
     - role: La Varita Perdida (musical infantil)
       time: 2019
       company: Diferentes teatros de Murcia.

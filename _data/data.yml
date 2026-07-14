@@ -116,7 +116,7 @@ publications:
       - title: "[Olvídame](https://youtu.be/V0bjDcCl_5k){:target='_blank'} (2024)"
         # authors: Donald E. Knuth
         # conference: 2024
-        
+
       - title: "[El regalo](https://youtu.be/1bTNHJ5AX_w){:target='_blank'} (2024)"
         # authors: Donald E. Knuth
         # conference: 2024
@@ -140,6 +140,10 @@ publications:
 experiences:
   - title: Cine y Televisión
   - items:
+    - role: El Perdón (largometraje)
+      time: 2026
+      company: Director, Joaquín Lisón.
+
     - role: Hotel Bitcoin (largometraje)
       time: 2024
       company: Directores, Manuel Sanabria y Carlos 'Pocho' Villaverde.
@@ -202,9 +206,9 @@ experiences:
   - items:
     - role: Annie (musical)
       time: 2024
-      company: Teatro Villa de Molina (Murcia). 
+      company: Teatro Villa de Molina (Murcia).
       details: Personaje protagonista (Señora Hannigan).
-      
+
     - role: Abracadabra (musical)
       time: 2023
       company: Diferentes teatros de Murcia.
@@ -310,11 +314,11 @@ projects:
       - title: Curso de preparación al casting
         link: "#hook"
         tagline: Cristina Alcázar y Verónica Reche (2024).
-        
+
       - title: Curso de preparación al casting
         link: "#hook"
         tagline: Marga Rodríguez, UARM (2024).
-      
+
       - title: Curso de teatro musical
         link: "#hook"
         tagline: Escuela Teatres producciones (2023).

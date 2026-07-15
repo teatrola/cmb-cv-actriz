@@ -2,16 +2,150 @@
 layout: default
 ---
 
-{% include career-profile.html %}
+{% assign profile = site.data.data.sidebar %}
+{% assign career = site.data.data.career-profile %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-{% include publications.html %}
+<main id="contenido" class="page-shell">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__copy reveal">
+      <p class="eyebrow">Casting dossier / publicidad / cine / teatro musical</p>
+      <h1 id="hero-title">{{ profile.name }}</h1>
+      <p class="hero__lead">Actriz con presencia luminosa, registro cómico-dramático y oficio de escenario. Lista para trabajos que necesitan verdad, ritmo y una cara que se recuerda.</p>
 
-{% include experiences.html %}
+      <div class="hero-contact" aria-label="Contacto directo">
+        <a href="mailto:{{ profile.email }}?subject=Solicitud%20de%20material%20Carmen%20Blanco">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3.75 5.75h16.5v12.5H3.75z"/><path d="m4.25 6.25 7.75 6.2 7.75-6.2"/></svg>
+          <span>{{ profile.email }}</span>
+        </a>
+        <a href="tel:+34650593626">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8.1 4.6 5.9 6.8c-.55.55-.7 1.4-.37 2.1 1.95 4.16 5.4 7.61 9.57 9.57.7.33 1.55.18 2.1-.37l2.2-2.2-4.05-3.1-1.55 1.55c-1.72-.96-3.18-2.42-4.15-4.15l1.55-1.55z"/></svg>
+          <span>{{ profile.phone }}</span>
+        </a>
+        <a href="https://www.youtube.com/channel/{{ profile.youtube.id }}" target="_blank" rel="noopener">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 8.1a3 3 0 0 0-2.1-2.12C17.05 5.5 12 5.5 12 5.5s-5.05 0-6.9.48A3 3 0 0 0 3 8.1 31.2 31.2 0 0 0 2.5 12a31.2 31.2 0 0 0 .5 3.9 3 3 0 0 0 2.1 2.12c1.85.48 6.9.48 6.9.48s5.05 0 6.9-.48A3 3 0 0 0 21 15.9a31.2 31.2 0 0 0 .5-3.9 31.2 31.2 0 0 0-.5-3.9Z"/><path d="m10.25 15.05 4.6-3.05-4.6-3.05z"/></svg>
+          <span>YouTube</span>
+        </a>
+      </div>
 
-{% include projects.html %}
+      <div class="hero__actions" aria-label="Material principal">
+        <a class="button button--ghost" href="https://youtu.be/oMr19qip6b0" target="_blank" rel="noopener">Ver videobook</a>
+      </div>
+    </div>
 
-{% include skills.html %}
+    <div class="slate reveal" aria-label="Ficha rápida de casting">
+      <div class="slate__photo-wrap">
+        <img class="slate__photo" src="{{ site.baseurl }}/assets/images/profile2024full.jpg" alt="Retrato de {{ profile.name }}" width="1280" height="1600">
+        <span class="crop crop--tl" aria-hidden="true"></span>
+        <span class="crop crop--br" aria-hidden="true"></span>
+      </div>
+      <div class="slate__meta">
+        <p class="slate__label">Notas de casting</p>
+        <div class="range-tags" aria-label="Rangos interpretativos">
+          <span>Madre con carácter</span>
+          <span>Vecina inolvidable</span>
+          <span>Humor seco</span>
+          <span>Musical</span>
+          <span>Soprano</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-card reveal" aria-label="Datos rápidos">
+    {% for detail in profile.personales %}
+      <div>
+        <span class="quick-card__label">{{ detail.item }}</span>
+        <strong>{{ detail.value }}</strong>
+      </div>
+    {% endfor %}
+  </section>
+
+  <section class="section two-col" aria-labelledby="perfil-title">
+    <div class="section__heading reveal">
+      <p class="eyebrow">Perfil útil para producción</p>
+      <h2 id="perfil-title">Una actriz de confianza para escenas que deben parecer vividas.</h2>
+    </div>
+    <div class="section__body reveal">
+      {{ career.summary | markdownify }}
+    </div>
+  </section>
+
+  <section class="section contact-sheet" aria-labelledby="escenas-title">
+    <div class="contact-sheet__intro reveal">
+      <p class="eyebrow">{{ site.data.data.publications.title }}</p>
+      <h2 id="escenas-title">Una hoja de contactos para revisar tono antes de llamar.</h2>
+    </div>
+    <div class="scene-list" aria-label="Escenas seleccionadas">
+      {% for paper in site.data.data.publications.papers %}
+        <article class="scene-tile reveal">
+          {{ paper.title | markdownify }}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="trayectoria-title">
+    <div class="section__heading reveal">
+      <p class="eyebrow">Trayectoria completa</p>
+      <h2 id="trayectoria-title">Créditos completos, agrupados por medio.</h2>
+    </div>
+
+    <div class="experience-groups">
+      {% assign current_group_title = "" %}
+      {% for group in site.data.data.experiences %}
+        {% if group.title %}
+          {% assign current_group_title = group.title %}
+        {% elsif group.items %}
+          <section class="experience-group reveal" aria-labelledby="group-{{ forloop.index }}">
+            <h3 id="group-{{ forloop.index }}" class="experience-group__title">{{ current_group_title }}</h3>
+            <div class="credit-grid credit-grid--complete">
+              {% for item in group.items %}
+                <article class="credit-card reveal">
+                  {% if item.time %}<span class="credit-card__year">{{ item.time }}</span>{% endif %}
+                  <div class="credit-card__title">{{ item.role | markdownify }}</div>
+                  {% if item.company %}<p class="credit-card__meta">{{ item.company }}</p>{% endif %}
+                  {% if item.details %}<p>{{ item.details }}</p>{% endif %}
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section dossier" aria-labelledby="formacion-title">
+    <div class="dossier__panel reveal">
+      <p class="eyebrow">Formación</p>
+      <h2 id="formacion-title">Interpretación, cámara, casting, canto y movimiento.</h2>
+
+      <div class="compact-list" aria-label="Formación reglada">
+        {% for item in site.data.data.education %}
+          <article>
+            <span>{{ item.time }}</span>
+            <strong>{{ item.degree }}</strong>
+            <p>{{ item.university }}</p>
+          </article>
+        {% endfor %}
+      </div>
+
+      <h3 class="subsection-title">{{ site.data.data.projects.title }}</h3>
+      <div class="training-list" aria-label="Formación complementaria">
+        {% for item in site.data.data.projects.assignments %}
+          <article>
+            <strong>{{ item.title }}</strong>
+            <p>{{ item.tagline }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="dossier__panel dossier__panel--accent reveal">
+      <p class="eyebrow">Material disponible</p>
+      <h2>Videobook, presentación y separatas a un clic.</h2>
+      <p>Los enlaces de perfil y escenas están arriba para revisar el registro antes de escribir o llamar.</p>
+    </div>
+  </section>
+</main>

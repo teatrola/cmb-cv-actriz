@@ -1,0 +1,45 @@
+---
+layout: default
+title: Fotobook de Carmen Blanco
+description: Fotobook de Carmen Blanco, actriz. Retratos de estudio para casting.
+permalink: /fotobook/
+---
+
+{% assign profile = site.data.data.sidebar %}
+{% assign image_extensions = '.jpeg,.jpg,.png,.webp,.avif,.gif,.svg' | split: ',' %}
+{% assign photos = site.static_files | where_exp: "file", "file.path contains '/assets/images/fotobook' and image_extensions contains file.extname" | sort: "name" %}
+{% comment %}Group by filename length so fotobook_2 comes before fotobook_10.{% endcomment %}
+{% assign photo_groups = photos | group_by_exp: "photo", "photo.basename | size" | sort: "name" %}
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<main id="contenido" class="page-shell fotobook">
+  <header class="fotobook__header">
+    <a class="button button--ghost" href="{{ '/' | relative_url }}"><span aria-hidden="true">←&nbsp;</span> Volver al CV</a>
+    <div class="fotobook__title">
+      <h1>Fotobook</h1>
+      <p class="fotobook__name">{{ profile.name }}</p>
+    </div>
+  </header>
+
+  {% if photos.size > 0 %}
+    <div class="fotobook__sheet">
+      <ul class="fotobook__grid" role="list">
+        {% assign frame = 0 %}
+        {% for group in photo_groups %}
+          {% for photo in group.items %}
+            {% assign frame = frame | plus: 1 %}
+            {% assign description = site.data.fotobook[photo.basename] | default: 'Retrato de estudio' %}
+            <li class="fotobook__frame">
+              <a href="{{ photo.path | relative_url }}">
+                <div class="fotobook__image">
+                  <img src="{{ photo.path | relative_url }}" alt="{{ profile.name | escape }}: {{ description | escape }}" {% if frame > 3 %}loading="lazy"{% endif %} decoding="async">
+                </div>
+              </a>
+            </li>
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</main>

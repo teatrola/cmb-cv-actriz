@@ -7,7 +7,10 @@ permalink: /fotobook/
 
 {% assign profile = site.data.data.sidebar %}
 {% assign image_extensions = '.jpeg,.jpg,.png,.webp,.avif,.gif,.svg' | split: ',' %}
-{% assign photos = site.static_files | where_exp: "file", "file.path contains '/assets/images/fotobook' and image_extensions contains file.extname" | sort: "name" %}
+{% assign photos = site.static_files
+  | where_exp: "file", "file.path contains '/assets/images/fotobook'"
+  | where_exp: "file", "image_extensions contains file.extname"
+  | sort: "name" %}
 {% comment %}Group by filename length so fotobook_2 comes before fotobook_10.{% endcomment %}
 {% assign photo_groups = photos | group_by_exp: "photo", "photo.basename | size" | sort: "name" %}
 

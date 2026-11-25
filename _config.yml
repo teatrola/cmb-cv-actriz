@@ -4,15 +4,12 @@
 title: CV Carmen Blanco - Actriz
 url: 'https://teatrola.github.io/cmb-cv-actriz/'
 baseurl: '/cmb-cv-actriz' #change it according to your repository name
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: berry # blue turquoise green berry orange ceramic
 
 # Tracker
 analytics: UA-127759499-1
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
